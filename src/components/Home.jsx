@@ -15,7 +15,7 @@ const Home = () => {
             Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-           My name is Emmanuel. Always focused on building responsive applications!
+          My name is Emmanuel. Always focused on building responsive applications!
           </p>
 
           <div>
@@ -27,7 +27,7 @@ const Home = () => {
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={20} className="ml-1" />
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
           </div>
