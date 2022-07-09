@@ -9,6 +9,9 @@ import tailwind from '../assets/tailwind.png';
 import node from '../assets/node.png';
 import mongoDb from '../assets/mongoDb.png';
 import mySql from '../assets/mySql.png';
+import insomnia from '../assets/insomnia.png';
+import npmLogo from '../assets/npmLogo.png';
+import git from '../assets/git.png';
 
 
 const Experience = () => {
@@ -67,6 +70,24 @@ const Experience = () => {
       title: "MySQL",
       style: "shadow-amber-500",
     },
+    {
+        id: 10,
+        src: insomnia,
+        title: "Insomnia",
+        style: "shadow-violet-700",
+      },
+      {
+        id: 11,
+        src: npmLogo,
+        title: "NPM",
+        style: "shadow-red-600",
+      },
+      {
+        id: 12,
+        src: git,
+        title: "Git",
+        style: "shadow-orange-700",
+      },
   ];
 
   return (
