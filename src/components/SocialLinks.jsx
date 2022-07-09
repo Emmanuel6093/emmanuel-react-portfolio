@@ -44,8 +44,8 @@ const SocialLinks = () => {
             href: '/resume.pdf',
             style: 'rounded-br-md', 
             download: true,
-        }
-    ]
+        },
+    ];
 
     return (
         <div className=' hidden lg:flex flex-col top-[35%] left-0 fixed'>

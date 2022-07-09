@@ -7,6 +7,8 @@ import reactImage from '../assets/react.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
 import node from '../assets/node.png';
+import mongoDb from '../assets/mongoDb.png';
+import mySql from '../assets/mySql.png';
 
 
 const Experience = () => {
@@ -52,7 +54,19 @@ const Experience = () => {
         id: 7, 
         src: node, 
         title: 'Node',
-        style: 'shadow-green-400' 
+        style: 'shadow-green-700' 
+    },
+    {
+        id: 8, 
+        src: mongoDb, 
+        title: 'MongoDB',
+        style: 'shadow-stone-800' 
+    },
+    {
+        id: 9, 
+        src: mySql, 
+        title: 'MySQL',
+        style: 'shadow-amber-500' 
     },
    ] 
    

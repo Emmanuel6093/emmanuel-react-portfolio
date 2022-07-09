@@ -10,13 +10,13 @@ const About = () => {
                 </div>
 
                 <p className='text-xl mt-20'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos magnam libero necessitatibus laborum reprehenderit quidem deserunt vero mollitia! Non repellendus ab consequuntur reiciendis similique sit aut maxime eius fugiat distinctio dicta, neque earum voluptas dolore, officiis in dolorem iure nemo omnis eaque? Quod consequatur harum similique ea, asperiores aliquam dolor.
+                   Hello I'm Emmanuel Lorenzo. Welcome to my portfolio! Please checkout some of my work near the bottom and also my experience with different technologies. 
                 </p>
 
                 <br />
 
                 <p className='text-xl'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sequi eaque iusto debitis assumenda nihil inventore suscipit veritatis in, ut error aliquid animi facilis totam placeat! Rerum deserunt optio impedit nemo consequuntur corporis perferendis earum velit consequatur eaque aut provident odio natus nisi iste facere cupiditate doloribus, exercitationem facilis commodi!
+                    I'm a full-stack web developer with a passion for building beautiful, responsive websites. Love building applications from scratch and figuring out any problems. I'm always looking for new opportunities to learn and grow and that's why I love being a developer!   
                 </p>
             </div>
 
