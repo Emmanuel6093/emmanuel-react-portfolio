@@ -5,34 +5,47 @@ import noteEater from '../assets/portfolio/noteEater.jpg';
 import noteTaker from '../assets/portfolio/noteTaker.jpg';
 import techBlog from '../assets/portfolio/techBlog.jpg';
 import weather from '../assets/portfolio/weather.jpg';
+
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: budget,
+      deployedUrl: 'https://emmanuel-budget-tracker.herokuapp.com/',
+      githubUrl: 'https://github.com/Emmanuel6093/budget-tracker',
     },
     {
       id: 2,
       src: hongry,
+      deployedUrl: 'https://hongry.herokuapp.com/',
+      githubUrl: 'https://github.com/Emmanuel6093/hongry',
     },
     {
       id: 3,
       src: noteEater,
+      deployedUrl: 'https://foglea10.github.io/Note-Eater/',
+      githubUrl: 'https://github.com/FogleA10/Note-Eater',
     },
     {
       id: 4,
       src: noteTaker,
+      deployedUrl: 'https://note-taker-emman6093.herokuapp.com/', 
+      githubUrl: 'https://github.com/Emmanuel6093/note-taker',
     },
     {
       id: 5,
       src: techBlog,
+      deployedUrl: 'https://obscure-lowlands-04499.herokuapp.com/',
+      githubUrl: 'https://github.com/Emmanuel6093/tech-blog',
     },
     {
       id: 6,
       src: weather,
+      deployedUrl: 'https://emmanuel6093.github.io/weather-dashboard/',
+      githubUrl: 'https://github.com/Emmanuel6093/weather-dashboard',
     },
   ];
-
+  
   return (
     <div
       name="portfolio"
@@ -47,7 +60,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, deployedUrl, githubUrl }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -55,12 +68,22 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a 
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                href={deployedUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                </a>
+                <a 
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                href={githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
