@@ -5,6 +5,7 @@ import noteEater from '../assets/portfolio/noteEater.jpg';
 import noteTaker from '../assets/portfolio/noteTaker.jpg';
 import techBlog from '../assets/portfolio/techBlog.jpg';
 import weather from '../assets/portfolio/weather.jpg';
+import killerKombo from '../assets/portfolio/killerKombo.jpg';
 
 const Portfolio = () => {
   const portfolios = [
@@ -43,6 +44,12 @@ const Portfolio = () => {
       src: weather,
       deployedUrl: 'https://emmanuel6093.github.io/weather-dashboard/',
       githubUrl: 'https://github.com/Emmanuel6093/weather-dashboard',
+    },
+    {
+      id: 7,
+      src: killerKombo,
+      deployedUrl: 'https://killer-kombos.herokuapp.com/',
+      githubUrl: 'https://github.com/RenBryant/killerkombo',
     },
   ];
   
